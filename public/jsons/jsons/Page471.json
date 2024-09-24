@@ -1,0 +1,222 @@
+[
+    {
+        "line": 1,
+        "left": 14,
+        "end": 372,
+        "height": 42,
+        "top": 6,
+        "ayah": 1,
+        "page": 471,
+        "width": 358,
+        "verse_pos": 0
+    },
+    {
+        "line": 2,
+        "left": 14,
+        "end": 372,
+        "height": 41,
+        "top": 48,
+        "ayah": 1,
+        "page": 471,
+        "width": 358,
+        "verse_pos": 0
+    },
+    {
+        "line": 3,
+        "left": 14,
+        "end": 372,
+        "height": 46,
+        "top": 89,
+        "ayah": 1,
+        "page": 471,
+        "width": 358,
+        "verse_pos": 0
+    },
+    {
+        "line": 4,
+        "left": 284,
+        "end": 372,
+        "height": 39,
+        "top": 135,
+        "ayah": 1,
+        "page": 471,
+        "width": 88,
+        "verse_pos": 0
+    },
+    {
+        "line": 4,
+        "left": 14,
+        "end": 283,
+        "height": 39,
+        "top": 135,
+        "ayah": 2,
+        "page": 471,
+        "width": 269,
+        "verse_pos": 1
+    },
+    {
+        "line": 5,
+        "left": 14,
+        "end": 372,
+        "height": 46,
+        "top": 174,
+        "ayah": 2,
+        "page": 471,
+        "width": 358,
+        "verse_pos": 1
+    },
+    {
+        "line": 6,
+        "left": 87,
+        "end": 372,
+        "height": 42,
+        "top": 220,
+        "ayah": 2,
+        "page": 471,
+        "width": 285,
+        "verse_pos": 1
+    },
+    {
+        "line": 6,
+        "left": 14,
+        "end": 86,
+        "height": 42,
+        "top": 220,
+        "ayah": 3,
+        "page": 471,
+        "width": 72,
+        "verse_pos": 2
+    },
+    {
+        "line": 7,
+        "left": 69,
+        "end": 372,
+        "height": 40,
+        "top": 262,
+        "ayah": 3,
+        "page": 471,
+        "width": 303,
+        "verse_pos": 2
+    },
+    {
+        "line": 7,
+        "left": 14,
+        "end": 69,
+        "height": 40,
+        "top": 262,
+        "ayah": 4,
+        "page": 471,
+        "width": 55,
+        "verse_pos": 3
+    },
+    {
+        "line": 8,
+        "left": 14,
+        "end": 372,
+        "height": 46,
+        "top": 302,
+        "ayah": 4,
+        "page": 471,
+        "width": 358,
+        "verse_pos": 3
+    },
+    {
+        "line": 9,
+        "left": 14,
+        "end": 372,
+        "height": 44,
+        "top": 348,
+        "ayah": 4,
+        "page": 471,
+        "width": 358,
+        "verse_pos": 3
+    },
+    {
+        "line": 10,
+        "left": 97,
+        "end": 372,
+        "height": 43,
+        "top": 392,
+        "ayah": 4,
+        "page": 471,
+        "width": 275,
+        "verse_pos": 3
+    },
+    {
+        "line": 10,
+        "left": 14,
+        "end": 96,
+        "height": 43,
+        "top": 392,
+        "ayah": 5,
+        "page": 471,
+        "width": 82,
+        "verse_pos": 4
+    },
+    {
+        "line": 11,
+        "left": 14,
+        "end": 372,
+        "height": 41,
+        "top": 435,
+        "ayah": 5,
+        "page": 471,
+        "width": 358,
+        "verse_pos": 4
+    },
+    {
+        "line": 12,
+        "left": 14,
+        "end": 372,
+        "height": 42,
+        "top": 476,
+        "ayah": 6,
+        "page": 471,
+        "width": 358,
+        "verse_pos": 5
+    },
+    {
+        "line": 13,
+        "left": 252,
+        "end": 372,
+        "height": 44,
+        "top": 518,
+        "ayah": 6,
+        "page": 471,
+        "width": 120,
+        "verse_pos": 5
+    },
+    {
+        "line": 13,
+        "left": 14,
+        "end": 251,
+        "height": 44,
+        "top": 518,
+        "ayah": 7,
+        "page": 471,
+        "width": 237,
+        "verse_pos": 6
+    },
+    {
+        "line": 14,
+        "left": 14,
+        "end": 372,
+        "height": 41,
+        "top": 562,
+        "ayah": 7,
+        "page": 471,
+        "width": 358,
+        "verse_pos": 6
+    },
+    {
+        "line": 15,
+        "left": 14,
+        "end": 372,
+        "height": 46,
+        "top": 603,
+        "ayah": 7,
+        "page": 471,
+        "width": 358,
+        "verse_pos": 6
+    }
+]

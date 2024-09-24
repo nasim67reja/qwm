@@ -1,0 +1,156 @@
+[
+ {
+  "line": 1,
+  "left": 18,
+  "end": 375,
+  "height": 44,
+  "top": 7,
+  "ayah": 1,
+  "page": 106,
+  "width": 357,
+  "verse_pos": 0
+ },
+ {
+  "line": 2,
+  "left": 18,
+  "end": 375,
+  "height": 39,
+  "top": 51,
+  "ayah": 1,
+  "page": 106,
+  "width": 357,
+  "verse_pos": 0
+ },
+ {
+  "line": 3,
+  "left": 18,
+  "end": 375,
+  "height": 46,
+  "top": 90,
+  "ayah": 1,
+  "page": 106,
+  "width": 357,
+  "verse_pos": 0
+ },
+ {
+  "line": 4,
+  "left": 18,
+  "end": 375,
+  "height": 41,
+  "top": 136,
+  "ayah": 1,
+  "page": 106,
+  "width": 357,
+  "verse_pos": 0
+ },
+ {
+  "line": 5,
+  "left": 18,
+  "end": 375,
+  "height": 43,
+  "top": 177,
+  "ayah": 1,
+  "page": 106,
+  "width": 357,
+  "verse_pos": 0
+ },
+ {
+  "line": 6,
+  "left": 18,
+  "end": 375,
+  "height": 41,
+  "top": 310,
+  "ayah": 3,
+  "page": 106,
+  "width": 357,
+  "verse_pos": 2
+ },
+ {
+  "line": 7,
+  "left": 18,
+  "end": 375,
+  "height": 44,
+  "top": 351,
+  "ayah": 3,
+  "page": 106,
+  "width": 357,
+  "verse_pos": 2
+ },
+ {
+  "line": 8,
+  "left": 256,
+  "end": 375,
+  "height": 48,
+  "top": 395,
+  "ayah": 3,
+  "page": 106,
+  "width": 119,
+  "verse_pos": 2
+ },
+ {
+  "line": 8,
+  "left": 18,
+  "end": 255,
+  "height": 48,
+  "top": 395,
+  "ayah": 4,
+  "page": 106,
+  "width": 237,
+  "verse_pos": 3
+ },
+ {
+  "line": 9,
+  "left": 18,
+  "end": 375,
+  "height": 35,
+  "top": 443,
+  "ayah": 4,
+  "page": 106,
+  "width": 357,
+  "verse_pos": 3
+ },
+ {
+  "line": 10,
+  "left": 18,
+  "end": 375,
+  "height": 49,
+  "top": 478,
+  "ayah": 4,
+  "page": 106,
+  "width": 357,
+  "verse_pos": 3
+ },
+ {
+  "line": 11,
+  "left": 18,
+  "end": 375,
+  "height": 39,
+  "top": 527,
+  "ayah": 4,
+  "page": 106,
+  "width": 357,
+  "verse_pos": 3
+ },
+ {
+  "line": 12,
+  "left": 18,
+  "end": 375,
+  "height": 43,
+  "top": 566,
+  "ayah": 4,
+  "page": 106,
+  "width": 357,
+  "verse_pos": 3
+ },
+ {
+  "line": 13,
+  "left": 18,
+  "end": 375,
+  "height": 45,
+  "top": 609,
+  "ayah": 4,
+  "page": 106,
+  "width": 357,
+  "verse_pos": 3
+ }
+]

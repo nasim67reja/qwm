@@ -1,0 +1,1750 @@
+[
+  {
+    "index": 1,
+    "start_page": "01",
+    "page_ranges": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "surah_ids": [
+      {
+        "start_page": 1,
+        "surah_id": 1
+      },
+      {
+        "start_page": 2,
+        "surah_id": 2
+      }
+    ],
+    "start": {
+      "index": "01",
+      "verse": "verse_01",
+      "name": "Al-Fatiha",
+      "name_arabic": "الفاتحة"
+    },
+    "end": {
+      "index": "02",
+      "verse": "verse_141",
+      "name": "Al-Baqara",
+      "name_arabic": "البقرة"
+    }
+  },
+  {
+    "index": 2,
+    "start_page": "22",
+    "page_ranges": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ],
+    "surah_ids": [
+      {
+        "start_page": 22,
+        "surah_id": 2
+      }
+    ],
+    "start": {
+      "index": "02",
+      "verse": "verse_142",
+      "name": "Al-Baqara",
+      "name_arabic": "البقرة"
+    },
+    "end": {
+      "index": "02",
+      "verse": "verse_252",
+      "name": "Al-Baqara",
+      "name_arabic": "البقرة"
+    }
+  },
+  {
+    "index": 3,
+    "start_page": "42",
+    "page_ranges": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61
+    ],
+    "surah_ids": [
+      {
+        "start_page": 42,
+        "surah_id": 2
+      },
+      {
+        "start_page": 50,
+        "surah_id": 3
+      }
+    ],
+    "start": {
+      "index": "02",
+      "verse": "verse_253",
+      "name": "Al-Baqara",
+      "name_arabic": "البقرة"
+    },
+    "end": {
+      "index": "03",
+      "verse": "verse_92",
+      "name": "Aal-Imran",
+      "name_arabic": "آل عمران"
+    }
+  },
+  {
+    "index": 4,
+    "start_page": "62",
+    "page_ranges": [
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81
+    ],
+    "surah_ids": [
+      {
+        "start_page": 62,
+        "surah_id": 3
+      },
+      {
+        "start_page": 77,
+        "surah_id": 4
+      }
+    ],
+    "start": {
+      "index": "03",
+      "verse": "verse_93",
+      "name": "Aal-Imran",
+      "name_arabic": "آل عمران"
+    },
+    "end": {
+      "index": "04",
+      "verse": "verse_23",
+      "name": "An-Nisaa'",
+      "name_arabic": "النساء"
+    }
+  },
+  {
+    "index": 5,
+    "start_page": "82",
+    "page_ranges": [
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101
+    ],
+    "surah_ids": [
+      {
+        "start_page": 82,
+        "surah_id": 4
+      }
+    ],
+    "start": {
+      "index": "04",
+      "verse": "verse_24",
+      "name": "An-Nisaa'",
+      "name_arabic": "النساء"
+    },
+    "end": {
+      "index": "04",
+      "verse": "verse_147",
+      "name": "An-Nisaa'",
+      "name_arabic": "النساء"
+    }
+  },
+  {
+    "index": 6,
+    "start_page": "102",
+    "page_ranges": [
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121
+    ],
+    "surah_ids": [
+      {
+        "start_page": 102,
+        "surah_id": 4
+      },
+      {
+        "start_page": 106,
+        "surah_id": 5
+      }
+    ],
+    "start": {
+      "index": "04",
+      "verse": "verse_148",
+      "name": "An-Nisaa'",
+      "name_arabic": "النساء"
+    },
+    "end": {
+      "index": "05",
+      "verse": "verse_81",
+      "name": "Al-Ma'ida",
+      "name_arabic": "المائدة"
+    }
+  },
+  {
+    "index": 7,
+    "start_page": "122",
+    "page_ranges": [
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141
+    ],
+    "surah_ids": [
+      {
+        "start_page": 122,
+        "surah_id": 5
+      },
+      {
+        "start_page": 128,
+        "surah_id": 6
+      }
+    ],
+    "start": {
+      "index": "05",
+      "verse": "verse_82",
+      "name": "Al-Ma'ida",
+      "name_arabic": "المائدة"
+    },
+    "end": {
+      "index": "06",
+      "verse": "verse_110",
+      "name": "Al-An'am",
+      "name_arabic": "الأنعام"
+    }
+  },
+  {
+    "index": 8,
+    "start_page": "142",
+    "page_ranges": [
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161
+    ],
+    "surah_ids": [
+      {
+        "start_page": 142,
+        "surah_id": 6
+      },
+      {
+        "start_page": 151,
+        "surah_id": 7
+      }
+    ],
+    "start": {
+      "index": "06",
+      "verse": "verse_111",
+      "name": "Al-An'am",
+      "name_arabic": "الأنعام"
+    },
+    "end": {
+      "index": "07",
+      "verse": "verse_87",
+      "name": "Al-A'raf",
+      "name_arabic": "الأعراف"
+    }
+  },
+  {
+    "index": 9,
+    "start_page": "162",
+    "page_ranges": [
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181
+    ],
+    "surah_ids": [
+      {
+        "start_page": 162,
+        "surah_id": 7
+      },
+      {
+        "start_page": 177,
+        "surah_id": 8
+      }
+    ],
+    "start": {
+      "index": "07",
+      "verse": "verse_88",
+      "name": "Al-A'raf",
+      "name_arabic": "الأعراف"
+    },
+    "end": {
+      "index": "08",
+      "verse": "verse_40",
+      "name": "Al-Anfal",
+      "name_arabic": "الأنفال"
+    }
+  },
+  {
+    "index": 10,
+    "start_page": "182",
+    "page_ranges": [
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201
+    ],
+    "surah_ids": [
+      {
+        "start_page": 182,
+        "surah_id": 8
+      },
+      {
+        "start_page": 187,
+        "surah_id": 9
+      }
+    ],
+    "start": {
+      "index": "08",
+      "verse": "verse_41",
+      "name": "Al-Anfal",
+      "name_arabic": "الأنفال"
+    },
+    "end": {
+      "index": "09",
+      "verse": "verse_92",
+      "name": "Al-Tawba",
+      "name_arabic": "التوبة"
+    }
+  },
+  {
+    "index": 11,
+    "start_page": "202",
+    "page_ranges": [
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221
+    ],
+    "surah_ids": [
+      {
+        "start_page": 202,
+        "surah_id": 9
+      },
+      {
+        "start_page": 208,
+        "surah_id": 10
+      },
+      {
+        "start_page": 221,
+        "surah_id": 11
+      }
+    ],
+    "start": {
+      "index": "09",
+      "verse": "verse_93",
+      "name": "Al-Tawba",
+      "name_arabic": "التوبة"
+    },
+    "end": {
+      "index": "11",
+      "verse": "verse_5",
+      "name": "Hud",
+      "name_arabic": "هود"
+    }
+  },
+  {
+    "index": 12,
+    "start_page": "222",
+    "page_ranges": [
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241
+    ],
+    "surah_ids": [
+      {
+        "start_page": 222,
+        "surah_id": 11
+      },
+      {
+        "start_page": 235,
+        "surah_id": 12
+      }
+    ],
+    "start": {
+      "index": "11",
+      "verse": "verse_06",
+      "name": "Hud",
+      "name_arabic": "هود"
+    },
+    "end": {
+      "index": "12",
+      "verse": "verse_52",
+      "name": "Yusuf",
+      "name_arabic": "يوسف"
+    }
+  },
+  {
+    "index": 13,
+    "start_page": "242",
+    "page_ranges": [
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261
+    ],
+    "surah_ids": [
+      {
+        "start_page": 242,
+        "surah_id": 12
+      },
+      {
+        "start_page": 249,
+        "surah_id": 13
+      },
+      {
+        "start_page": 255,
+        "surah_id": 14
+      }
+    ],
+    "start": {
+      "index": "12",
+      "verse": "verse_53",
+      "name": "Yusuf",
+      "name_arabic": "يوسف"
+    },
+    "end": {
+      "index": "14",
+      "verse": "verse_52",
+      "name": "Ibrahim",
+      "name_arabic": "ابراهيم"
+    }
+  },
+  {
+    "index": 14,
+    "start_page": "262",
+    "page_ranges": [
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281
+    ],
+    "surah_ids": [
+      {
+        "start_page": 262,
+        "surah_id": 15
+      },
+      {
+        "start_page": 267,
+        "surah_id": 16
+      }
+    ],
+    "start": {
+      "index": "15",
+      "verse": "verse_01",
+      "name": "Al-Hijr",
+      "name_arabic": "الحجر"
+    },
+    "end": {
+      "index": "16",
+      "verse": "verse_128",
+      "name": "An-Nahl",
+      "name_arabic": "النحل"
+    }
+  },
+  {
+    "index": 15,
+    "start_page": "282",
+    "page_ranges": [
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301
+    ],
+    "surah_ids": [
+      {
+        "start_page": 282,
+        "surah_id": 17
+      },
+      {
+        "start_page": 293,
+        "surah_id": 18
+      }
+    ],
+    "start": {
+      "index": "17",
+      "verse": "verse_01",
+      "name": "Al-Israa",
+      "name_arabic": "الإسراء"
+    },
+    "end": {
+      "index": "18",
+      "verse": "verse_74",
+      "name": "Al-Kahf",
+      "name_arabic": "الكهف"
+    }
+  },
+  {
+    "index": 16,
+    "start_page": "302",
+    "page_ranges": [
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321
+    ],
+    "surah_ids": [
+      {
+        "start_page": 302,
+        "surah_id": 18
+      },
+      {
+        "start_page": 305,
+        "surah_id": 19
+      },
+      {
+        "start_page": 312,
+        "surah_id": 20
+      }
+    ],
+    "start": {
+      "index": "18",
+      "verse": "verse_75",
+      "name": "Al-Kahf",
+      "name_arabic": "الكهف"
+    },
+    "end": {
+      "index": "20",
+      "verse": "verse_135",
+      "name": "Ta-Ha",
+      "name_arabic": "طه"
+    }
+  },
+  {
+    "index": 17,
+    "start_page": "322",
+    "page_ranges": [
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341
+    ],
+    "surah_ids": [
+      {
+        "start_page": 322,
+        "surah_id": 21
+      },
+      {
+        "start_page": 332,
+        "surah_id": 22
+      }
+    ],
+    "start": {
+      "index": "21",
+      "verse": "verse_01",
+      "name": "Al-Anbiya",
+      "name_arabic": "الأنبياء"
+    },
+    "end": {
+      "index": "22",
+      "verse": "verse_78",
+      "name": "Al-Hajj",
+      "name_arabic": "الحج"
+    }
+  },
+  {
+    "index": 18,
+    "start_page": "342",
+    "page_ranges": [
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361
+    ],
+    "surah_ids": [
+      {
+        "start_page": 342,
+        "surah_id": 23
+      },
+      {
+        "start_page": 350,
+        "surah_id": 24
+      },
+      {
+        "start_page": 359,
+        "surah_id": 25
+      }
+    ],
+    "start": {
+      "index": "23",
+      "verse": "verse_01",
+      "name": "Al-Muminun",
+      "name_arabic": "المؤمنون"
+    },
+    "end": {
+      "index": "25",
+      "verse": "verse_20",
+      "name": "Al-Furqan",
+      "name_arabic": "الفرقان"
+    }
+  },
+  {
+    "index": 19,
+    "start_page": "362",
+    "page_ranges": [
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381
+    ],
+    "surah_ids": [
+      {
+        "start_page": 362,
+        "surah_id": 25
+      },
+      {
+        "start_page": 367,
+        "surah_id": 26
+      },
+      {
+        "start_page": 377,
+        "surah_id": 27
+      }
+    ],
+    "start": {
+      "index": "25",
+      "verse": "verse_21",
+      "name": "Al-Furqan",
+      "name_arabic": "الفرقان"
+    },
+    "end": {
+      "index": "27",
+      "verse": "verse_55",
+      "name": "An-Naml",
+      "name_arabic": "النمل"
+    }
+  },
+  {
+    "index": 20,
+    "start_page": "382",
+    "page_ranges": [
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401
+    ],
+    "surah_ids": [
+      {
+        "start_page": 382,
+        "surah_id": 27
+      },
+      {
+        "start_page": 385,
+        "surah_id": 28
+      },
+      {
+        "start_page": 396,
+        "surah_id": 29
+      }
+    ],
+    "start": {
+      "index": "27",
+      "verse": "verse_56",
+      "name": "An-Naml",
+      "name_arabic": "النمل"
+    },
+    "end": {
+      "index": "29",
+      "verse": "verse_45",
+      "name": "Al-Ankabut",
+      "name_arabic": "العنكبوت"
+    }
+  },
+  {
+    "index": 21,
+    "start_page": "402",
+    "page_ranges": [
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419,
+      420,
+      421
+    ],
+    "surah_ids": [
+      {
+        "start_page": 402,
+        "surah_id": 29
+      },
+      {
+        "start_page": 404,
+        "surah_id": 30
+      },
+      {
+        "start_page": 411,
+        "surah_id": 31
+      },
+      {
+        "start_page": 415,
+        "surah_id": 32
+      },
+      {
+        "start_page": 418,
+        "surah_id": 33
+      }
+    ],
+    "start": {
+      "index": "29",
+      "verse": "verse_46",
+      "name": "Al-Ankabut",
+      "name_arabic": "العنكبوت"
+    },
+    "end": {
+      "index": "33",
+      "verse": "verse_30",
+      "name": "Al-Ahzab",
+      "name_arabic": "الأحزاب"
+    }
+  },
+  {
+    "index": 22,
+    "start_page": "422",
+    "page_ranges": [
+      422,
+      423,
+      424,
+      425,
+      426,
+      427,
+      428,
+      429,
+      430,
+      431,
+      432,
+      433,
+      434,
+      435,
+      436,
+      437,
+      438,
+      439,
+      440,
+      441
+    ],
+    "surah_ids": [
+      {
+        "start_page": 422,
+        "surah_id": 33
+      },
+      {
+        "start_page": 428,
+        "surah_id": 34
+      },
+      {
+        "start_page": 434,
+        "surah_id": 35
+      },
+      {
+        "start_page": 440,
+        "surah_id": 36
+      }
+    ],
+    "start": {
+      "index": "33",
+      "verse": "verse_31",
+      "name": "Al-Ahzab",
+      "name_arabic": "الأحزاب"
+    },
+    "end": {
+      "index": "36",
+      "verse": "verse_27",
+      "name": "Yasin",
+      "name_arabic": "يس"
+    }
+  },
+  {
+    "index": 23,
+    "start_page": "442",
+    "page_ranges": [
+      442,
+      443,
+      444,
+      445,
+      446,
+      447,
+      448,
+      449,
+      450,
+      451,
+      452,
+      453,
+      454,
+      455,
+      456,
+      457,
+      458,
+      459,
+      460,
+      461
+    ],
+    "surah_ids": [
+      {
+        "start_page": 442,
+        "surah_id": 36
+      },
+      {
+        "start_page": 446,
+        "surah_id": 37
+      },
+      {
+        "start_page": 453,
+        "surah_id": 38
+      },
+      {
+        "start_page": 458,
+        "surah_id": 39
+      }
+    ],
+    "start": {
+      "index": "36",
+      "verse": "verse_28",
+      "name": "Yasin",
+      "name_arabic": "يس"
+    },
+    "end": {
+      "index": "39",
+      "verse": "verse_31",
+      "name": "Az-Zumar",
+      "name_arabic": "الزمر"
+    }
+  },
+  {
+    "index": 24,
+    "start_page": "462",
+    "page_ranges": [
+      462,
+      463,
+      464,
+      465,
+      466,
+      467,
+      468,
+      469,
+      470,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481
+    ],
+    "surah_ids": [
+      {
+        "start_page": 462,
+        "surah_id": 39
+      },
+      {
+        "start_page": 467,
+        "surah_id": 40
+      },
+      {
+        "start_page": 477,
+        "surah_id": 41
+      }
+    ],
+    "start": {
+      "index": "39",
+      "verse": "verse_32",
+      "name": "Az-Zumar",
+      "name_arabic": "الزمر"
+    },
+    "end": {
+      "index": "41",
+      "verse": "verse_46",
+      "name": "Fussilat",
+      "name_arabic": "فصلت"
+    }
+  },
+  {
+    "index": 25,
+    "start_page": "482",
+    "page_ranges": [
+      482,
+      483,
+      484,
+      485,
+      486,
+      487,
+      488,
+      489,
+      490,
+      491,
+      492,
+      493,
+      494,
+      495,
+      496,
+      497,
+      498,
+      499,
+      500,
+      501
+    ],
+    "surah_ids": [
+      {
+        "start_page": 482,
+        "surah_id": 41
+      },
+      {
+        "start_page": 483,
+        "surah_id": 42
+      },
+      {
+        "start_page": 489,
+        "surah_id": 43
+      },
+      {
+        "start_page": 496,
+        "surah_id": 44
+      },
+      {
+        "start_page": 499,
+        "surah_id": 45
+      }
+    ],
+    "start": {
+      "index": "41",
+      "verse": "verse_47",
+      "name": "Fussilat",
+      "name_arabic": "فصلت"
+    },
+    "end": {
+      "index": "45",
+      "verse": "verse_37",
+      "name": "Al-Jathiya",
+      "name_arabic": "الجاثية"
+    }
+  },
+  {
+    "index": 26,
+    "start_page": "502",
+    "page_ranges": [
+      502,
+      503,
+      504,
+      505,
+      506,
+      507,
+      508,
+      509,
+      510,
+      511,
+      512,
+      513,
+      514,
+      515,
+      516,
+      517,
+      518,
+      519,
+      520,
+      521
+    ],
+    "surah_ids": [
+      {
+        "start_page": 502,
+        "surah_id": 45
+      },
+      {
+        "start_page": 502,
+        "surah_id": 46
+      },
+      {
+        "start_page": 507,
+        "surah_id": 47
+      },
+      {
+        "start_page": 511,
+        "surah_id": 48
+      },
+      {
+        "start_page": 515,
+        "surah_id": 49
+      },
+      {
+        "start_page": 518,
+        "surah_id": 50
+      },
+      {
+        "start_page": 520,
+        "surah_id": 51
+      }
+    ],
+    "start": {
+      "index": "46",
+      "verse": "verse_01",
+      "name": "Al-Ahqaf",
+      "name_arabic": "الأحقاف"
+    },
+    "end": {
+      "index": "51",
+      "verse": "verse_30",
+      "name": "Az-Zariyat",
+      "name_arabic": "الذاريات"
+    }
+  },
+  {
+    "index": 27,
+    "start_page": "522",
+    "page_ranges": [
+      522,
+      523,
+      524,
+      525,
+      526,
+      527,
+      528,
+      529,
+      530,
+      531,
+      532,
+      533,
+      534,
+      535,
+      536,
+      537,
+      538,
+      539,
+      540,
+      541
+    ],
+    "surah_ids": [
+      {
+        "start_page": 522,
+        "surah_id": 51
+      },
+      {
+        "start_page": 523,
+        "surah_id": 52
+      },
+      {
+        "start_page": 526,
+        "surah_id": 53
+      },
+      {
+        "start_page": 528,
+        "surah_id": 54
+      },
+      {
+        "start_page": 531,
+        "surah_id": 55
+      },
+      {
+        "start_page": 534,
+        "surah_id": 56
+      },
+      {
+        "start_page": 537,
+        "surah_id": 57
+      }
+    ],
+    "start": {
+      "index": "51",
+      "verse": "verse_31",
+      "name": "Az-Zariyat",
+      "name_arabic": "الذاريات"
+    },
+    "end": {
+      "index": "57",
+      "verse": "verse_29",
+      "name": "Al-Hadid",
+      "name_arabic": "الحديد"
+    }
+  },
+  {
+    "index": 28,
+    "start_page": "542",
+    "page_ranges": [
+      542,
+      543,
+      544,
+      545,
+      546,
+      547,
+      548,
+      549,
+      550,
+      551,
+      552,
+      553,
+      554,
+      555,
+      556,
+      557,
+      558,
+      559,
+      560,
+      561
+    ],
+    "surah_ids": [
+      {
+        "start_page": 542,
+        "surah_id": 58
+      },
+      {
+        "start_page": 545,
+        "surah_id": 59
+      },
+      {
+        "start_page": 549,
+        "surah_id": 60
+      },
+      {
+        "start_page": 551,
+        "surah_id": 61
+      },
+      {
+        "start_page": 553,
+        "surah_id": 62
+      },
+      {
+        "start_page": 554,
+        "surah_id": 63
+      },
+      {
+        "start_page": 556,
+        "surah_id": 64
+      },
+      {
+        "start_page": 558,
+        "surah_id": 65
+      },
+      {
+        "start_page": 560,
+        "surah_id": 66
+      }
+    ],
+    "start": {
+      "index": "58",
+      "verse": "verse_01",
+      "name": "Al-Mujadilah",
+      "name_arabic": "المجادلة"
+    },
+    "end": {
+      "index": "066",
+      "verse": "verse_12",
+      "name": "At-Tahrim",
+      "name_arabic": "التحريم"
+    }
+  },
+  {
+    "index": 29,
+    "start_page": "562",
+    "page_ranges": [
+      562,
+      563,
+      564,
+      565,
+      566,
+      567,
+      568,
+      569,
+      570,
+      571,
+      572,
+      573,
+      574,
+      575,
+      576,
+      577,
+      578,
+      579,
+      580,
+      581
+    ],
+    "surah_ids": [
+      {
+        "start_page": 562,
+        "surah_id": 67
+      },
+      {
+        "start_page": 564,
+        "surah_id": 68
+      },
+      {
+        "start_page": 566,
+        "surah_id": 69
+      },
+      {
+        "start_page": 568,
+        "surah_id": 70
+      },
+      {
+        "start_page": 570,
+        "surah_id": 71
+      },
+      {
+        "start_page": 572,
+        "surah_id": 72
+      },
+      {
+        "start_page": 574,
+        "surah_id": 73
+      },
+      {
+        "start_page": 575,
+        "surah_id": 74
+      },
+      {
+        "start_page": 577,
+        "surah_id": 75
+      },
+      {
+        "start_page": 578,
+        "surah_id": 76
+      },
+      {
+        "start_page": 580,
+        "surah_id": 77
+      }
+    ],
+    "start": {
+      "index": "67",
+      "verse": "verse_01",
+      "name": "Al-Mulk",
+      "name_arabic": "الملك"
+    },
+    "end": {
+      "index": "77",
+      "verse": "verse_50",
+      "name": "Al-Mursalat",
+      "name_arabic": "المرسلات"
+    }
+  },
+  {
+    "index": 30,
+    "start_page": "582",
+    "page_ranges": [
+      582,
+      583,
+      584,
+      585,
+      586,
+      587,
+      588,
+      589,
+      590,
+      591,
+      592,
+      593,
+      594,
+      595,
+      596,
+      597,
+      598,
+      599,
+      600,
+      601,
+      602,
+      603,
+      604
+    ],
+    "surah_ids": [
+      {
+        "start_page": 582,
+        "surah_id": 78
+      },
+      {
+        "start_page": 583,
+        "surah_id": 79
+      },
+      {
+        "start_page": 585,
+        "surah_id": 80
+      },
+      {
+        "start_page": 586,
+        "surah_id": 81
+      },
+      {
+        "start_page": 587,
+        "surah_id": 82
+      },
+      {
+        "start_page": 587,
+        "surah_id": 83
+      },
+      {
+        "start_page": 589,
+        "surah_id": 84
+      },
+      {
+        "start_page": 590,
+        "surah_id": 85
+      },
+      {
+        "start_page": 591,
+        "surah_id": 86
+      },
+      {
+        "start_page": 591,
+        "surah_id": 87
+      },
+      {
+        "start_page": 592,
+        "surah_id": 88
+      },
+      {
+        "start_page": 593,
+        "surah_id": 89
+      },
+      {
+        "start_page": 594,
+        "surah_id": 90
+      },
+      {
+        "start_page": 595,
+        "surah_id": 91
+      },
+      {
+        "start_page": 595,
+        "surah_id": 92
+      },
+      {
+        "start_page": 596,
+        "surah_id": 93
+      },
+      {
+        "start_page": 596,
+        "surah_id": 94
+      },
+      {
+        "start_page": 597,
+        "surah_id": 95
+      },
+      {
+        "start_page": 597,
+        "surah_id": 96
+      },
+      {
+        "start_page": 598,
+        "surah_id": 97
+      },
+      {
+        "start_page": 598,
+        "surah_id": 98
+      },
+      {
+        "start_page": 599,
+        "surah_id": 99
+      },
+      {
+        "start_page": 599,
+        "surah_id": 100
+      },
+      {
+        "start_page": 600,
+        "surah_id": 101
+      },
+      {
+        "start_page": 600,
+        "surah_id": 102
+      },
+      {
+        "start_page": 601,
+        "surah_id": 103
+      },
+      {
+        "start_page": 601,
+        "surah_id": 104
+      },
+      {
+        "start_page": 601,
+        "surah_id": 105
+      },
+      {
+        "start_page": 602,
+        "surah_id": 106
+      },
+      {
+        "start_page": 602,
+        "surah_id": 107
+      },
+      {
+        "start_page": 602,
+        "surah_id": 108
+      },
+      {
+        "start_page": 603,
+        "surah_id": 109
+      },
+      {
+        "start_page": 603,
+        "surah_id": 110
+      },
+      {
+        "start_page": 603,
+        "surah_id": 111
+      },
+      {
+        "start_page": 604,
+        "surah_id": 112
+      },
+      {
+        "start_page": 604,
+        "surah_id": 113
+      },
+      {
+        "start_page": 604,
+        "surah_id": 114
+      }
+    ],
+    "start": {
+      "index": "78",
+      "verse": "verse_01",
+      "name": "An-Naba",
+      "name_arabic": "النبإ"
+    },
+    "end": {
+      "index": "114",
+      "verse": "verse_6",
+      "name": "An-Nas",
+      "name_arabic": "الناس"
+    }
+  }
+]
