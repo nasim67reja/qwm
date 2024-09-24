@@ -7,7 +7,7 @@ export default function SurahCard({ surah }) {
 
     const handleClick = () => {
         // Navigate to the corresponding Surah's page
-        router.push(`/surahs/1`); // Assuming `surah.id` is the Surah number
+        router.push(`/surahs/${surah.linkTo}`);
     };
     return (
         <div className="border border-gray-300 p-5 rounded-lg shadow-md mb-4 cursor-pointer"

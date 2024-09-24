@@ -61,7 +61,7 @@ const SurahPage = () => {
                     height={2038}
                     priority
                     unoptimized
-                    className=""
+                    className="w-[80%] h-auto"
                 />
             </div>
 
