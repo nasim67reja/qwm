@@ -1,7 +1,7 @@
 /* eslint-disable no-param-reassign */
 /* eslint-disable no-underscore-dangle */
 import axios from 'axios';
-import ApiUrls from '../../helper/ApiUrls';
+// import ApiUrls from '../../helper/ApiUrls';
 import { TOKEN, REFRESH_TOKEN } from '../config';
 // eslint-disable-next-line import/extensions
 import { API_BASE_URL } from '../path';

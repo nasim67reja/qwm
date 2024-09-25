@@ -1,8 +1,11 @@
-"use client";
-
-import { useRouter, useParams } from "next/navigation";
+"use client"
 import { useState, useEffect } from "react";
+import { useRouter, useParams } from "next/navigation";
 import Image from "next/image";
+import { PUBLIC_API } from "@/config/services/axios.service";
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
+import { BUCKETURL } from "@/config/path";
 
 const SurahPage = () => {
     const { surahId, pageNum } = useParams();
@@ -11,6 +14,8 @@ const SurahPage = () => {
     const initialPage = pageNum ? parseInt(pageNum) : 1;
 
     const [currentPage, setCurrentPage] = useState(initialPage);
+    const [pageDetails, setPageDetails] = useState(null);  // Store API response
+    const [audioFile, setAudioFile] = useState('');        // Store audio file URL
 
     const imageUrl = `/images/surah/page${String(currentPage).padStart(3, '0')}.png`;
 
@@ -38,8 +43,28 @@ const SurahPage = () => {
         setCurrentPage(initialPage);
     }, [initialPage]);
 
+    useEffect(() => {
+        const fetchPageDetails = async () => {
+            try {
+                const response = await PUBLIC_API.post('/content/page-details', {
+                    reciter_id: "maryam",
+                    content_type: "page",
+                    number: currentPage,
+                    version: "v1",
+                });
+                setPageDetails(response.data);
+                console.log("response", response.data)
+                setAudioFile(response.data.data.audio_file);  // Set the audio file URL from the response
+            } catch (error) {
+                console.error("Error fetching page details:", error);
+            }
+        };
+
+        fetchPageDetails();
+    }, []);
+    console.log("audioFile", audioFile)
     return (
-        <div className=" bg-gray-100">
+        <div className="bg-gray-100">
             <h2 className="text-center py-4 text-xl font-semibold flex items-center justify-center ">
                 <button
                     onClick={() => router.push('/')}
@@ -51,7 +76,6 @@ const SurahPage = () => {
                 </button>
                 Surah {surahId} - Page {currentPage}
             </h2>
-
 
             <div className="flex justify-center items-center">
                 <Image
@@ -65,6 +89,8 @@ const SurahPage = () => {
                 />
             </div>
 
+
+
             <div className="fixed bottom-0 left-0 right-0 bg-white flex justify-between items-center py-4 px-8 shadow-md">
                 <button
                     onClick={handlePrevious}
@@ -75,6 +101,16 @@ const SurahPage = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
                     </svg>
                 </button>
+
+                {audioFile && (
+                    <div className="flex justify-center mt-4 border-4">
+                        <AudioPlayer
+                            src={`${BUCKETURL}${audioFile.replace(/^public\//, '')}`}  // Remove "public/" if present
+                            autoPlay={false}
+                            controls
+                        />
+                    </div>
+                )}
 
                 <button
                     onClick={handleNext}

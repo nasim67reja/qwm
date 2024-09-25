@@ -1,18 +1,23 @@
 const path = {
-    home: '/',
-    userGuide: '/userguide',
-    signin: '/auth/signin',
-    forgetPassword: '/auth/forget-password',
-    resetPassword: '/auth/reset-password',
-    calender_auth: '/auth/add-event-to-calender/',
-    signout: '/auth/authentication/global-logout',
-    signup: '/auth/signup',
-    join_meeting: '/join/',
-    meeting_list: '/my-meetings',
-    meeting_details: '/meeting-details/',
-    drawing: '/drawing/',
-    error_404: '/404',
+  home: "/",
+  userGuide: "/userguide",
+  signin: "/auth/signin",
+  forgetPassword: "/auth/forget-password",
+  resetPassword: "/auth/reset-password",
+  calender_auth: "/auth/add-event-to-calender/",
+  signout: "/auth/authentication/global-logout",
+  signup: "/auth/signup",
+  join_meeting: "/join/",
+  meeting_list: "/my-meetings",
+  meeting_details: "/meeting-details/",
+  drawing: "/drawing/",
+  error_404: "/404",
 };
+
+export const BUCKETURL =
+  process.env.NEXT_PUBLIC_APP_ENV === "qa"
+    ? "https://qwm-files-bucket-qa.s3.us-west-2.amazonaws.com/public/"
+    : "https://qwm-files-bucket-master.s3.us-west-2.amazonaws.com/public/";
 
 // export const wsUrl = () => {
 //     return {
@@ -37,20 +42,20 @@ const path = {
 // };
 
 export const API_BASE_URL = () => {
-    return {
-        dev_local: 'http://localhost:5000/api/',
-        dev: 'https://coredev.shadhin.ai/api/',
-        qa: 'https://coreqa.shadhin.ai/api/',
-        stage: 'https://core.shadhin.ai/api/',
-    }[process.env.NEXT_PUBLIC_APP_ENV || 'dev'];
+  return {
+    dev_local: "http://localhost:5000/api/",
+    dev: "https://fvbn23n5f9.execute-api.us-west-2.amazonaws.com/qa/",
+    qa: "https://fvbn23n5f9.execute-api.us-west-2.amazonaws.com/qa/",
+    stage: "https://fvbn23n5f9.execute-api.us-west-2.amazonaws.com/qa/",
+  }[process.env.NEXT_PUBLIC_APP_ENV || "dev"];
 };
 export const SOCKET_BASE_URL = () => {
-    return {
-        dev_local: 'http://localhost:5000',
-        dev: 'https://coredev.shadhin.ai',
-        qa: 'https://coreqa.shadhin.ai',
-        stage: 'https://core.shadhin.ai',
-    }[process.env.NEXT_PUBLIC_APP_ENV || 'dev'];
+  return {
+    dev_local: "http://localhost:5000",
+    dev: "https://coredev.shadhin.ai",
+    qa: "https://coreqa.shadhin.ai",
+    stage: "https://core.shadhin.ai",
+  }[process.env.NEXT_PUBLIC_APP_ENV || "dev"];
 };
 
 // export const _bucket_ = () => {
