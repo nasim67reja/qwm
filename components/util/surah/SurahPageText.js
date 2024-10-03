@@ -1,15 +1,13 @@
-"use client"
+"use client";
 import { useState, useEffect } from "react";
 import { useRouter, useParams } from "next/navigation";
-import Image from "next/image";
-import { PUBLIC_API } from "@/config/services/axios.service";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
+import { PUBLIC_API } from "@/config/services/axios.service";
 import { BUCKETURL } from "@/config/path";
 import Apiurls from "@/helper/Apiurls";
-import page1Coordinates from "@/data/jsons/jsons/page1.json";
 
-const SurahPage = () => {
+const SurahPageText = () => {
     const { surahId, pageNum } = useParams();
     const router = useRouter();
     const totalPages = 604;
@@ -18,8 +16,7 @@ const SurahPage = () => {
     const [currentPage, setCurrentPage] = useState(initialPage);
     const [pageDetails, setPageDetails] = useState(null);  // Store API response
     const [audioFile, setAudioFile] = useState('');        // Store audio file URL
-
-    const imageUrl = `/images/surah/page${String(currentPage).padStart(3, '0')}.png`;
+    const [currentAyat, setCurrentAyat] = useState(null);  // Store current ayat
 
     const updateUrl = (newPage) => {
         router.replace(`/surahs/${newPage}`);
@@ -45,9 +42,40 @@ const SurahPage = () => {
         setCurrentPage(initialPage);
     }, [initialPage]);
 
+    // Fetch page details, including Quran text and audio file
+    // useEffect(() => {
+    //     const fetchPageDetails = async () => {
+    //         try {
+    //             // Fetch Quranic text and metadata from alquran.cloud API
+    //             const response = await fetch(`https://api.alquran.cloud/v1/surah/${1}`);
+    //             const data = await response.json();
+    //             setPageDetails(data.data);  // Update page details with the fetched ayah data
+
+    //             // Fetch the audio file (this part stays the same as in your original code)
+    //             const audioResponse = await PUBLIC_API.post(Apiurls.PAGE_CONTENT, {
+    //                 reciter_id: "maryam",
+    //                 content_type: "page",
+    //                 number: currentPage,
+    //                 version: "v1",
+    //             });
+    //             setAudioFile(audioResponse.data.data.audio_file);
+    //         } catch (error) {
+    //             console.error("Error fetching page details:", error);
+    //         }
+    //     };
+
+    //     fetchPageDetails();
+    // }, [currentPage, surahId]);
+
+    const [ayatMapping, setAyatMapping] = useState(null);
     useEffect(() => {
         const fetchPageDetails = async () => {
             try {
+
+                const ayatResponse = await fetch(`https://api.alquran.cloud/v1/surah/${1}`);
+                const data = await ayatResponse.json();
+                setAyatMapping(data.data);
+
                 const response = await PUBLIC_API.post(Apiurls.PAGE_CONTENT, {
                     reciter_id: "maryam",
                     content_type: "page",
@@ -55,7 +83,6 @@ const SurahPage = () => {
                     version: "v1",
                 });
                 setPageDetails(response.data.data);
-                console.log("response", response.data)
                 setAudioFile(response.data.data.audio_file);
             } catch (error) {
                 console.error("Error fetching page details:", error);
@@ -65,7 +92,19 @@ const SurahPage = () => {
         fetchPageDetails();
     }, []);
 
-    const [currentAyat, setCurrentAyat] = useState(null);
+
+    // const handleTimeUpdate = (currentTime) => {
+    //     const currentTimeMs = currentTime * 1000;
+    //     const currentAyatData = pageDetails.ayahs.find(
+    //         (ayat) => currentTimeMs >= ayat.start_time_ms && currentTimeMs <= ayat.end_time_ms
+    //     );
+
+    //     if (currentAyatData && currentAyatData.number !== currentAyat) {
+    //         setCurrentAyat(currentAyatData.number);
+    //     }
+    //     console.log("currentAyat", currentAyat)
+
+    // };
 
     const handleTimeUpdate = (currentTime) => {
         // Convert current time in seconds to milliseconds
@@ -79,9 +118,9 @@ const SurahPage = () => {
         if (currentAyatData && currentAyatData.ayah_no !== currentAyat) {
             setCurrentAyat(currentAyatData.ayah_no);
         }
+        console.log("currentAyat", currentAyat)
+
     };
-
-
 
     return (
         <div className="bg-gray-100">
@@ -97,40 +136,24 @@ const SurahPage = () => {
                 Surah {surahId} - Page {currentPage}
             </h2>
 
-            <div className="flex justify-center items-center w-[384px] h-[805px] mx-auto relative">
-                <Image
-                    src={imageUrl}
-                    alt={`Surah ${surahId} Page ${currentPage}`}
-                    width={1260}
-                    height={2038}
-                    priority
-                    unoptimized
-                    className="w-[384px] h-[805px] border-2"
-                />
-                {/* Highlighting currently playing ayat */}
-                {page1Coordinates.map((ayat, i) => {
-                    if (ayat.ayah === currentAyat) {
-                        console.log("ayat", ayat, currentAyat)
-                        return (
-                            <div
-                                key={i}
-                                className="absolute bg-yellow-300 opacity-50"
-                                style={{
-                                    top: `${ayat.top}px`,
-                                    left: `${ayat.left}px`,
-                                    width: `${ayat.width}px`,
-                                    height: `${ayat.height}px`
-                                }}
-                            ></div>
-                        );
-                    }
-                    return null;
-                })}
+            <div className="flex flex-col items-center mx-auto relative p-4">
+                {/* Display Ayat text */}
+                {ayatMapping && ayatMapping.ayahs.map((ayat, i) => (
+                    <p
+                        key={i}
+                        className={`text-lg my-2 ${ayat.number === currentAyat ? 'bg-yellow-300' : ''}`}
+                    >
+                        {ayat.number}: {ayat.text}
+                    </p>
+                ))}
 
-
+                {/* Highlighting the currently playing ayat */}
+                {currentAyat && (
+                    <div className="text-yellow-500 font-bold">
+                        Ayat {currentAyat} is currently being played.
+                    </div>
+                )}
             </div>
-
-
 
             <div className="fixed bottom-0 left-0 right-0 bg-white flex justify-between items-center py-4 px-8 shadow-md">
                 <button
@@ -146,7 +169,7 @@ const SurahPage = () => {
                 {audioFile && (
                     <div className="flex justify-center mt-4 border-4">
                         <AudioPlayer
-                            src={`${BUCKETURL}${audioFile.replace(/^public\//, '')}`}  // Remove "public/" if present
+                            src={`${BUCKETURL}${audioFile.replace(/^public\//, '')}`}
                             autoPlay={false}
                             controls
                             onListen={(e) => handleTimeUpdate(e.target.currentTime)}
@@ -168,4 +191,4 @@ const SurahPage = () => {
     );
 };
 
-export default SurahPage;
+export default SurahPageText;
